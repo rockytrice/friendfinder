@@ -12,3 +12,12 @@ body{
     text-align: center;
     margin-top: 61px;
 }
+.lead {
+    color: white;
+}
+p{
+    color: white;
+}
+.display-4{
+    color: red;
+}
