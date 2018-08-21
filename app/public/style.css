@@ -21,3 +21,10 @@ p{
 .display-4{
     color: red;
 }
+mark.red{
+    color: red;
+    background: none;
+}
+nav.bg-light{
+    background-color: transparent!important;
+}
