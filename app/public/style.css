@@ -1,0 +1,14 @@
+    
+body{
+    /* Photo by Hannah Busing on Unsplash */
+    background-image: url(image/hannah-busing-716290-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+} 
+.jumbotron{
+    background-color: transparent!important;
+    text-align: center;
+    margin-top: 61px;
+}
