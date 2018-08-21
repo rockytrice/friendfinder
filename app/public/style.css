@@ -14,17 +14,31 @@ body{
 }
 .lead {
     color: white;
+    font-size: 40px!important;
+    font-family: 'Cormorant Garamond', serif;
+
+
 }
 p{
     color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+
 }
 .display-4{
     color: red;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px!important;
 }
 mark.red{
     color: red;
     background: none;
+
 }
 nav.bg-light{
     background-color: transparent!important;
+}
+mark.black{
+    color: black;
+    background: none;
 }
