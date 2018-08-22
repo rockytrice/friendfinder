@@ -4,7 +4,7 @@ body{
     background-image: url(image/hannah-busing-716290-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
-} 
+    font-family: 'Abril Fatface', cursive;} 
 .body2{
     background-image: url(image/ian-schneider-108618-unsplash.jpg);
     background-size: cover;
@@ -52,11 +52,19 @@ h2{
     color: red;
 }
 h3{
-    color: white;
+    color: red;
 }
 .chosen-select{
     text-align: center;
 }
 h4{
     color: white;
+}
+.display-5{
+    color: red;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px!important;
+}
+.btn-block{
+    margin-top: 9px;
 }
