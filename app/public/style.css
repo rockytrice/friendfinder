@@ -45,3 +45,18 @@ mark.black{
     color: black;
     background: none;
 }
+.container{
+    width: 600px;
+}
+h2{
+    color: red;
+}
+h3{
+    color: white;
+}
+.chosen-select{
+    text-align: center;
+}
+h4{
+    color: white;
+}
