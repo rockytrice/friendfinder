@@ -30,10 +30,10 @@
     <div class="container">
 
         <h2>About You</h2>
-        <input class="form-control form-control-lg" type="text" placeholder="Name" required>
+        <input class="form-control form-control-lg" type="text" id="name" placeholder="john smith" required>
 
         <h2>Link to Photo Image</h2>
-        <input class="form-control form-control-lg" type="text" placeholder="Image link" required>
+        <input class="form-control form-control-lg" type="text" id="photo" placeholder="Image link" required>
 
         <h3>
             <strong>Question 1</strong>
@@ -116,7 +116,7 @@
         <h3>
             <strong>Question 7</strong>
         </h3>
-        <h4>Dating is a give and take. If you only see it as "taking," you are not getting it.     </h4>
+        <h4>Dating is a give and take. If you only see it as "taking," you are not getting it. </h4>
         <select class="chosen-select" id="q7">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -166,7 +166,7 @@
         </select>
 
         <button type="button" class="btn btn-danger btn-lg btn-block">
-                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
             </i>Submit</button>
 
 
@@ -174,8 +174,18 @@
     </div>
 
 
-    <script src="server.js"></script>
+    <script type="text/javascript">    
+    $(".submit").on("click", function(){
+        event.preventDefault();
+      // Here we grab the form elements
+      var newReservation = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        score: $("#q1").val().trim(),
 
+    })
+
+    </script>
 </body>
 
 </html>
