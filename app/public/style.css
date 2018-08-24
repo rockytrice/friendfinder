@@ -1,71 +1,89 @@
-    
-body{
-    /* Photo by Hannah Busing on Unsplash */
-    background-image: url(image/hannah-busing-716290-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    font-family: 'Abril Fatface', cursive;} 
-.body2{
-    background-image: url(image/ian-schneider-108618-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.jumbotron{
-    background-color: transparent!important;
-    text-align: center;
-    margin-top: 61px;
-}
-.lead {
-    color: white;
-    font-size: 40px!important;
-    font-family: 'Cormorant Garamond', serif;
+    body {
+        /* Photo by Hannah Busing on Unsplash */
+        background-image: url(image/hannah-busing-716290-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Abril Fatface', cursive;
+    }
 
+    .body2 {
+        background-image: url(image/mayur-gala-487-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+    }
 
-}
-p{
-    color: white;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    .jumbotron {
+        background-color: transparent!important;
+        text-align: center;
+        margin-top: 61px;
+    }
 
-}
-.display-4{
-    color: red;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 100px!important;
-}
-mark.red{
-    color: red;
-    background: none;
+    .lead {
+        color: white;
+        font-size: 40px!important;
+        font-family: 'Cormorant Garamond', serif;
+    }
 
-}
-nav.bg-light{
-    background-color: transparent!important;
-}
-mark.black{
-    color: black;
-    background: none;
-}
-.container{
-    width: 600px;
-    margin-top: -141px;
-}
-h2{
-    color: red;
-}
-h3{
-    color: red;
-}
-.chosen-select{
-    text-align: center;
-}
-h4{
-    color: white;
-}
-.display-5{
-    color: red;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 50px!important;
-}
-.btn-block{
-    margin-top: 9px;
-}
+    p {
+        color: white;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 20px;
+    }
+
+    .display-4 {
+        color: red;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 100px!important;
+    }
+
+    mark.red {
+        color: red;
+        background: none;
+    }
+
+    nav.bg-light {
+        background-color: transparent!important;
+    }
+
+    mark.black {
+        color: black;
+        background: none;
+    }
+
+    .container {
+        width: 956px;
+    }
+
+    h2 {
+        color: red;
+    }
+
+    h3 {
+        color: red;
+    }
+
+    .chosen-select {
+        text-align: center;
+    }
+
+    h4 {
+        color: black;
+    }
+
+    .display-5 {
+        color: red;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 50px!important;
+        margin-bottom: -55px;
+    }
+
+    .btn-block {
+        margin-top: 9px;
+    }
+
+    .jumbotron-fluid{
+        margin-top: -66px!important;
+    }

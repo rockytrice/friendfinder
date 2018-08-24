@@ -6,8 +6,10 @@ var bodyParser = require("body-parser");
 // Sets up the Express App
 // ===========================================================
 var app = express();
-var PORT = process.env.PORT || 3000;
-
+var PORT = process.env.PORT || 8080;
+// was getting error saying refused to apply style from my css file because of MIMe type (text/html) is not supported.
+// did some googling and found this to work!!!
+app.use(express.static('app/public'));
 // Sets up the Express app to handle data parsing
 // ============================================================
 app.use(bodyParser.urlencoded({ extended: true }));
